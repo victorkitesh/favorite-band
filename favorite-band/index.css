@@ -1,6 +1,7 @@
 h1{
    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
    text-align: center;
+   font-style: oblique;
 }
 img {
     display: block;
@@ -9,6 +10,7 @@ img {
     width: 40%;
     height: 200px;
     object-fit: initial;
+    
    
    
     
@@ -50,9 +52,24 @@ img[src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrIaOSnVy-RNVB0HZ
 h2{
     text-align: justify;
     font-size: 40px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-weight: 700;
+    border: 10px; 
 }
 ol{
     background-color: #5D5C61;
     font-size: 30px;
+    font-style: italic;
 }
+span{
+color:blue;
+}
+p::first-letter {
+    color: #ff0000;
+    font-size: xx-large;
+  }
+  em{
+      color: chocolate;
+  }
+  
+  
